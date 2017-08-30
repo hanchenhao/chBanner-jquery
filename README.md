@@ -34,8 +34,7 @@
 
 以下参数全部为默认值
 ```
-$('.hiSlider').hiSlider({
-//开始索引位置 0开始
+      //开始索引位置 0开始
       startSlide: 0,
       //子元素选择器
       item: ".chBanner-item",
@@ -57,6 +56,5 @@ $('.hiSlider').hiSlider({
       intervalTime: 3000,
       //特效时间
       affectTime: 300
-}); 
 ```
 
