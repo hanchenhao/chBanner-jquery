@@ -1,0 +1,94 @@
+/* jquery.chBanner.css */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.chBanner {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    background: #eee;
+    text-align: center;
+}
+
+.chBanner-item {
+    float: left;
+    overflow: hidden;
+}
+
+.chBanner-item img {
+    display: block;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+}
+
+.chBanner-pages,
+.chBanner-title {
+    position: absolute;
+    z-index: 3;
+}
+
+.chBanner-btn-prev,
+.chBanner-btn-next {
+    position: absolute;
+    z-index: 5;
+    top: 50%;
+    height: 30px;
+    width: 30px;
+    background: url('./images/chBanner-arrow.png') no-repeat;
+    margin-top: -15px;
+    overflow: hidden;
+    opacity: .6;
+}
+
+.chBanner-btn-prev {
+    left: 10px;
+}
+
+.chBanner-btn-next {
+    right: 10px;
+    background-position: -30px 0;
+}
+
+.chBanner-btn-prev:hover,
+.chBanner-btn-next:hover {
+    opacity: 1;
+}
+
+.chBanner-title {
+    bottom: 0;
+    width: 100%;
+    padding: 6px 0;
+    color: #fff;
+    text-indent: 10px;
+    background: rgba(0, 0, 0, .6);
+    z-index: 2;
+    font: 14px;
+}
+
+.chBanner-pages {
+    left: 50%;
+    bottom: -3px;    
+    transform: translate(-50%, -50%);    /* 设置居中 */
+}
+
+.chBanner-pages a {
+    height: 6px;
+    width: 6px;
+    margin: 0 6px;
+    display: inline-block;
+    overflow: hidden;
+    text-indent: -100px;
+    font-size: 0;
+    border-radius: 50%;
+    background: #ddd;
+}
+
+.chBanner-pages a.active {
+    background: gray;
+}
