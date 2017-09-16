@@ -1,11 +1,11 @@
 
-#chBanner
-##一款兼容性良好,支持移动端的jQuery图片轮播插件
+# chBanner
+## 一款兼容性良好,支持移动端的jQuery图片轮播插件
 
 
-##使用步骤
+## 使用步骤
 
-###引入资源文件
+### 引入资源文件
 
 ```html
     <link rel="stylesheet" href="./jquery.chBanner.css">
@@ -13,7 +13,7 @@
     <script src="./jquery.chBanner.js"></script>
 ```
 
-###Step 2: 编写
+### Step 2: 编写
 
 ```html
         <div class="chBanner normal">
@@ -23,14 +23,14 @@
         </div>
 ```
 
-###Step 3: 调用 
+### Step 3: 调用 
 
 ```javascript
        $('.normal').chBanner();
 
 ```
 
-##配置
+## 配置
 
 以下参数全部为默认值
 ```
